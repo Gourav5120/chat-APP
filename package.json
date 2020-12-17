@@ -1,0 +1,17 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is Gourav's chat for project on MMdu 8 sem ",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "author": "gourav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "index.js": "0.0.3",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.3"
+  }
+}

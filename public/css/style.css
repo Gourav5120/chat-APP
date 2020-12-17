@@ -1,0 +1,114 @@
+.logo{
+    display:block;
+    margin:auto ;
+    width:80px;
+    height:60px;
+
+}
+body{
+    height:100hv;
+    background-image: linear-gradient(rgb(146, 184, 219),rgb(100, 221, 230));
+}
+
+h1{
+    margin-top:12px ;
+    font-size:30px;
+    font-family:Arial;
+    text-align:center;
+    color:rgb(72, 88, 233) ;
+}
+
+.container{
+    background-color: rgb(181, 233, 240);
+    border:6px solid rgb(36, 39, 85) ;
+    max-width:955px;
+    height:80vh;
+    margin:auto ;
+    padding:33px;
+    overflow-y:auto;
+    
+    
+}
+.message{
+  background-color:rgb(146, 184, 219);
+  width:24%;
+  padding:10px ;
+  margin:17px 12px ;
+  border:2px solid black ;
+  border-radius:10px ;  
+
+}
+.cen{
+    margin:auto;
+    text-align: center;
+    clear: both ;
+
+}
+
+.right{
+    float:right;
+    clear:both;
+
+}
+
+.left{
+
+    float:left;
+    clear:both;
+
+
+}
+
+
+#send-data{
+    display:block;
+    margin:auto;
+    text-align:center;
+    max-width:985px;
+}
+
+
+.btn{
+    border:none;
+    outline:none;
+    width:150px;
+    height:34px;
+    margin-bottom:20px;
+    border-radius: 50px;
+    background:linear-gradient(#6837ee,#0d2b7e);
+    color:#ddd;
+    text-transform:uppercase;
+    font-size:12px;
+    box-shadow:0 10px 20px rgba(0,0,0,.5);
+    transition:color .3s;
+    cursor:pointer;
+}
+.btn:hover{
+   background:linear-gradient(#8ba3dd,rgb(88, 220, 224));
+   color:rgb(26, 25, 25);
+   
+}
+
+#inp:hover{
+    background:linear-gradient(#d4dae7,rgb(210, 232, 233));
+    width:99%;
+    border:2px solid rgb(118, 113, 192);
+    border-radius:6px ;
+    height:34px;
+    margin-top:6px;
+    box-shadow:0 10px 20px rgba(0,0,0,.5);
+    transition:color .3s;
+    text-transform:uppercase;
+    font-size:12px;
+    
+ }
+
+
+#inp{
+    width:98%;
+    border:2px solid black;
+    border-radius:6px ;
+    height:30px;
+    margin-top:6px;
+
+}
